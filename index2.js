@@ -38,13 +38,10 @@ console.log(numberArray);
 //Exercise 3 Solution
 
 let nameArray = ['Takeallah', 'Devere', 'Hendrix', 'Roxanne'];
-
+console.log(nameArray[2]);
 console.log(nameArray);
-
-let pos = nameArray.indexOf('Hendrix');
-console.log(pos);
-console.log(pos, 2);
-nameArray.splice(pos,1);
+nameArray.splice(1,1);
 console.log(nameArray);
-console.log(pos, 2);
+console.log(nameArray[2]);
+
 
