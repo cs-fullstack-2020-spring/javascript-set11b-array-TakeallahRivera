@@ -37,4 +37,10 @@ let nameArray = ['Takeallah', 'Devere', 'Hendrix', 'Roxanne'];
 
 console.log(nameArray);
 
+let pos = nameArray.indexOf('Hendrix');
+console.log(pos);
+console.log(pos, 2);
+nameArray.splice(pos,1);
+console.log(nameArray);
+console.log(pos, 2);
 
