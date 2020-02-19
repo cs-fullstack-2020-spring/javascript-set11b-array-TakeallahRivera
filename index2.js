@@ -9,7 +9,11 @@
 
 //Exercise 1 Solution 
 
-let arrayTakeallah= ['Takeallah', 'Hendrix', 'Roxanne', 'Devere'];
+let arrayTakeallah = []
+arrayTakeallah.push('Takeallah')
+arrayTakeallah.push('Devere')
+arrayTakeallah.push('Roxanne')
+arrayTakeallah.push('Hendrix')
 console.log(arrayTakeallah);
 
 
